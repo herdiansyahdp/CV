@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="id" data-bs-theme="light">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hubungi untuk diskusi, kolaborasi, dan proyek.">
+  <title>Kontak | Nama Kamu — Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="contact">
+  <div class="top-progress" id="topProgress"></div>
+  <nav class="navbar navbar-expand-lg site-navbar sticky-top"><div class="container">
+    <a class="navbar-brand brand-mark" href="index.html"><span class="brand-symbol">N.</span><span>nama<span class="brand-muted">kamu</span></span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Buka navigasi"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="mainNav"><ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+      <li class="nav-item"><a class="nav-link" data-nav="home" href="index.html">Beranda</a></li><li class="nav-item"><a class="nav-link" data-nav="about" href="about.html">Tentang</a></li><li class="nav-item"><a class="nav-link" data-nav="blog" href="blog.html">Proyek & Blog</a></li><li class="nav-item"><a class="nav-link" data-nav="contact" href="kontak.html">Kontak</a></li><li class="nav-item ms-lg-2"><button class="btn btn-theme" type="button" data-theme-toggle aria-label="Ubah tema"><span data-theme-icon>☾</span><span class="d-lg-none ms-2" data-theme-label>Mode gelap</span></button></li>
+    </ul></div>
+  </div></nav>
+  <main>
+    <section class="page-hero section-pad"><div class="container"><p class="eyebrow">LET'S CONNECT</p><h1 class="page-title">Mari mulai <span class="text-gradient">percakapan.</span></h1><p class="page-intro">Punya pertanyaan, ide proyek, atau sekadar mau berbagi pengalaman belajar? Kirim pesan.</p></div></section>
+    <section class="pb-5"><div class="container"><div class="row g-4">
+      <div class="col-lg-5"><div class="contact-info-card h-100"><p class="eyebrow">CONTACT DETAILS</p><h2>Kontak langsung</h2><p class="muted-copy">Ganti semua informasi contoh berikut dengan alamat dan akun kamu yang aktif.</p>
+        <div class="contact-detail"><span class="contact-icon">@</span><div><small>EMAIL</small><a href="mailto:nama@email.com" id="emailAddress">nama@email.com</a></div><button class="copy-btn" type="button" data-copy-email="nama@email.com" aria-label="Salin email" title="Salin email">▣</button></div>
+        <div class="contact-detail"><span class="contact-icon">GH</span><div><small>GITHUB</small><a href="https://github.com/USERNAME" target="_blank" rel="noreferrer">github.com/USERNAME ↗</a></div></div>
+        <div class="contact-detail"><span class="contact-icon">in</span><div><small>LINKEDIN</small><a href="https://www.linkedin.com/in/USERNAME" target="_blank" rel="noreferrer">Profil LinkedIn ↗</a></div></div>
+        <div class="availability-note"><span class="status-dot"></span><span>Terbuka untuk diskusi dan kolaborasi belajar.</span></div><p class="copy-feedback small mb-0" id="copyFeedback" aria-live="polite"></p>
+      </div></div>
+      <div class="col-lg-7"><div class="surface-card h-100"><p class="eyebrow">SEND A MESSAGE</p><h2 class="section-title mb-2">Kirim <span class="text-gradient">pesan.</span></h2><p class="muted-copy mb-4">Isi formulir di bawah. Saat dikirim, aplikasi email di perangkat kamu akan dibuka dengan pesan yang sudah disiapkan.</p>
+        <form id="contactForm" class="needs-validation" novalidate>
+          <div class="row g-3"><div class="col-md-6"><label class="form-label" for="senderName">Nama</label><input class="form-control custom-input" type="text" id="senderName" name="name" placeholder="Nama kamu" required minlength="2"><div class="invalid-feedback">Masukkan nama (minimal 2 karakter).</div></div>
+          <div class="col-md-6"><label class="form-label" for="senderEmail">Email</label><input class="form-control custom-input" type="email" id="senderEmail" name="email" placeholder="kamu@email.com" required><div class="invalid-feedback">Masukkan alamat email yang valid.</div></div>
+          <div class="col-12"><label class="form-label" for="messageSubject">Subjek</label><input class="form-control custom-input" type="text" id="messageSubject" name="subject" placeholder="Topik pesan" required><div class="invalid-feedback">Subjek pesan tidak boleh kosong.</div></div>
+          <div class="col-12"><label class="form-label" for="senderMessage">Pesan</label><textarea class="form-control custom-input" id="senderMessage" name="message" rows="5" placeholder="Tulis pesan kamu di sini..." required minlength="10"></textarea><div class="invalid-feedback">Pesan minimal 10 karakter.</div></div>
+          <div class="col-12 d-flex flex-column flex-sm-row align-items-sm-center gap-3"><button class="btn btn-accent btn-lg" type="submit">Buka aplikasi email ↗</button><span id="formStatus" class="muted-copy small" aria-live="polite">Form ini tidak mengirim langsung ke server.</span></div></div>
+        </form>
+      </div></div>
+    </div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-2"><a class="footer-brand" href="index.html">NAMA<span>KAMU</span></a><p class="mb-0">Dibuat sambil belajar · <span data-year></span></p><a href="#top" class="back-top">Kembali ke atas ↑</a></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script><script src="assets/js/main.js"></script>
+</body></html>
