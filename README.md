@@ -1,4 +1,6 @@
-# Portfolio CV Starter — Bootstrap
+# Portfolio CV
+
+WELCOME TO MY Online CV & Portofolio
 
 Starter website CV/portfolio dengan 4 halaman:
 - `index.html` — beranda
